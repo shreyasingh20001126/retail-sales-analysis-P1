@@ -4,8 +4,6 @@ CREATE DATABASE p1_retail_db;
 
 -- Create TABLE
 DROP TABLE IF EXISTS retail_sales;
-
-SELECT COUNT(*) FROM sales_data;
 create table retail_sales
 	(
 		transactions_id	INT primary key,
